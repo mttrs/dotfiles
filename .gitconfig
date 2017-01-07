@@ -1,0 +1,38 @@
+[user]
+	name = Mitsuteru Sawa
+	email = mttrs@users.noreply.github.com
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	grep = auto
+	ui = true
+[alias]
+	br = branch
+	ba = branch -a
+	ci = commit -v
+	co = checkout
+	di = diff --color=always
+	diw = diff --word-diff
+	dc = diff --cached
+	l = log --oneline --decorate=short
+	ls = log --stat --decorate=full --date=iso --abbrev-commit --show-linear-break
+	lg = log --graph --decorate=short --abbrev-commit
+	sb = show-branch
+	st = status --short --branch
+	ft = fetch
+	mg = merge --no-ff
+	sh = stash
+	cl = clone
+	bl = blame
+	re = remote -v
+	create-pr = !sh -c 'stash pull-request $0'
+[http]
+        sslVerify = false
+[push]
+        default = upstream
+[pull]
+	rebase = true
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+	excludesfile = ~/.gitignore_global

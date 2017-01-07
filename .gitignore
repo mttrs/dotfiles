@@ -1,0 +1,18 @@
+# vi
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# ctag
+.tags*
+tags
+
+# ruby
+.ruby-version
+/.bundle
+/vendor/bundle
+/log
+/tmp
+
+.vim/.*
+.vim/autoload
+.vim/plugged
