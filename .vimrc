@@ -57,7 +57,11 @@ colorscheme baguette
 set display=lastline
 
 " Height of the completion
-set pumheight=10
+set pumheight=5
+hi Pmenu ctermbg=102
+hi PmenuSel ctermbg=253
+hi PmenuSbar ctermbg=152
+hi PmenuThumb ctermfg=0
 
 set showmatch
 set matchtime=1
