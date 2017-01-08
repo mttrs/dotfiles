@@ -8,7 +8,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = "baguette"
 
-hi Normal term=NONE cterm=NONE ctermbg=234 ctermfg=231 gui=NONE guibg=#1D1F21 guifg=#F8F8F2
+hi Normal term=NONE cterm=NONE ctermbg=232 ctermfg=231 gui=NONE guibg=#1D1F21 guifg=#F8F8F2
 hi Boolean term=NONE cterm=NONE ctermbg=bg ctermfg=153 gui=NONE guibg=bg guifg=#99CC99
 hi Special term=bold cterm=NONE ctermbg=bg ctermfg=158 gui=NONE guibg=bg guifg=#99CC99
 
@@ -46,10 +46,10 @@ hi IncSearch term=reverse cterm=reverse ctermbg=180 ctermfg=16 gui=reverse guibg
 " goDeclaration  xxx links to Keyword
 " goDeclType     xxx links to Keyword
 " goBuiltins     xxx links to Keyword
-hi Keyword term=NONE cterm=NONE ctermbg=bg ctermfg=10 gui=NONE guibg=bg guifg=#92C5F7
+hi Keyword term=NONE cterm=NONE ctermbg=bg ctermfg=119 gui=NONE guibg=bg guifg=#92C5F7
 
 hi Label term=NONE cterm=NONE ctermbg=bg ctermfg=153 gui=NONE guibg=bg guifg=#A8FF60
-hi LineNr term=underline cterm=NONE ctermbg=235 ctermfg=59 gui=NONE guibg=#232526 guifg=#465457
+hi LineNr term=underline cterm=NONE ctermbg=232 ctermfg=59 gui=NONE guibg=#232526 guifg=#465457
 
 hi Macro term=NONE cterm=NONE ctermbg=bg ctermfg=180 gui=NONE guibg=bg guifg=#C4BE89
 hi ModeMsg term=bold cterm=bold ctermbg=bg ctermfg=155 gui=bold guibg=bg guifg=#A8FF60
