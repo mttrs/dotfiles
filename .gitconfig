@@ -28,7 +28,7 @@
 	re = remote -v
 	create-pr = !sh -c 'stash pull-request $0'
 [http]
-        sslVerify = false
+        sslVerify = true
 [push]
         default = upstream
 [pull]
