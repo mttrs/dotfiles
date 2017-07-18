@@ -121,6 +121,7 @@ function zman() {
 # Cmmand history with peco
 # ^x^r
 #
+
 function execute-history-with-peco() {
     local item
     item=$(builtin history -n -r 1 | peco --query="$LBUFFER")
@@ -134,7 +135,6 @@ function execute-history-with-peco() {
 }
 zle -N execute-history-with-peco
 bindkey '^x^r' execute-history-with-peco
-
 
 #
 # Change directory by recently changed directory wiht peco
@@ -154,6 +154,23 @@ function peco-cdr() {
 }
 zle -N peco-cdr
 bindkey '^xb' peco-cdr
+
+#
+# Go to go src
+#  ^x^g
+#
+
+function goto-go-src-with-peco() {
+    local item
+    item=$(ghq list --full-path | peco --query="$LBUFFER")
+
+    if [[ -n "$item" ]]; then
+      BUFFER="cd $item"
+      zle accept-line
+    fi
+}
+zle -N goto-go-src-with-peco
+bindkey '^x^g' goto-go-src-with-peco
 
 #######################################################
 #
