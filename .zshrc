@@ -240,6 +240,7 @@ alias sed='gsed'
 alias vi='vim'
 alias ..='cd ..'
 alias ...='cd ../..'
+alias d='docker'
 
 # Global alias
 alias -g G='| grep'
