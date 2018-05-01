@@ -229,6 +229,7 @@ compinit
 alias be='bundle exec'
 alias chrome='/Applications/Google\ Chrome.app'
 alias cp='cp -v'
+alias d='docker'
 alias di='diff'
 alias g='git'
 alias h='heroku'
