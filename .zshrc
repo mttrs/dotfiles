@@ -8,7 +8,7 @@
 #
 ####################################
 
-PROMPT="mttr@%~%# "
+PROMPT="mttr@%~$ "
 
 # Save command history
 HISTFILE=~/.zsh_history
