@@ -10,6 +10,9 @@
 
 PROMPT="mttr@%~$ "
 
+# Set local in English
+export LC_ALL=en_US.UTF-8
+
 # Save command history
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
