@@ -20,6 +20,9 @@ export PGDATA=/usr/local/var/postgres
 # NVM
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
+# TimeZone
+export TZ=utc
+
 # Android
 #export ANDROID_HOME="$HOME/Library/Android/sdk"
 #
