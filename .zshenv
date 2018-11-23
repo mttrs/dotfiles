@@ -6,6 +6,9 @@ setopt no_global_rcs
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
+# For Mojave
+export PATH="/usr/sbin:$PATH"
+
 # Ignore dupicated entry
 typeset -U path cdpath fpath manpath
 
