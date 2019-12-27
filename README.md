@@ -1,12 +1,13 @@
 # dotfiles
 Inspired by https://dotfiles.github.io/
 
-## Create a symlink to use.
+## How to use
 ```shell
 # Clone the repository on $HOME
-% cd $HOME
-% git clone https://github.com/mttrs/dotfiles.git
+$ cd $HOME
+$ git clone https://github.com/mttrs/dotfiles.git
 
-# Ex. zsh
-% ln -sf ~/dotfiles/.zshrc ~/.zshrc
+# Create each symlink
+$ ln -sf ~/dotfiles/.zshrc ~/.zshrc
+$ ln -sf ...
 ```
