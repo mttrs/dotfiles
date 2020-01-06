@@ -1,15 +1,3 @@
-####################################
-#
-# PROMPT
-#
-# %d: current dir PATH
-# %~: Same as %d. But show home dir as ~.
-# %#: user -> %, user user -> #
-#
-####################################
-
-PROMPT="mttr@%~$ "
-
 # Set local in English
 export LC_ALL=en_US.UTF-8
 
@@ -205,14 +193,24 @@ if [[ -f $HOME/.autoenv/activate.sh ]]; then
     source /usr/local/opt/autoenv/activate.sh
 fi
 
-###############################
+####################################
+#
+# PROMPT
+#
+# %d: current dir PATH
+# %~: Same as %d. But show home dir as ~.
+# %#: user -> %, user user -> #
+#
+####################################
+
+####################################
 #
 # Awesome git prompt
 # - Manage by antigen
 #
 ###############################
 
-RPROMPT='$(git_super_status)'
+PROMPT='mttr@%~$(git_super_status)$ '
 
 ######################################################################
 #
