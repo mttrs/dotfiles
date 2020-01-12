@@ -36,6 +36,14 @@ Plug 'kchmck/vim-coffee-script'
 " For .editorconfig loading
 Plug 'editorconfig/editorconfig-vim'
 
+" Undo
+Plug 'mbbill/undotree'
+
+if has("persistent_undo")
+    set undodir=~/.undodir
+    set undofile
+endif
+
 call plug#end()
 
 "
