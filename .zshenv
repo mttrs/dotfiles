@@ -28,6 +28,8 @@ export NVM_DIR="$HOME/.nvm"
 # TimeZone
 export TZ=utc
 
+# pg 12 issue: https://github.com/petere/homebrew-postgresql/issues/51
+export PGGSSENCMODE=disable
 # Android
 #export ANDROID_HOME="$HOME/Library/Android/sdk"
 #
