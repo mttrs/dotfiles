@@ -1,4 +1,4 @@
-\set QUIET1
+\set QUIET 1
 \pset null '(null)'
 
 -- http://www.postgresql.org/docs/9.3/static/app-psql.html#APP-PSQL-PROMPTING
@@ -12,8 +12,9 @@
 \x auto
 
 -- \set HISTFILE ~/.psql_history- :DBNAME
+\set HISTSIZE -1
 \set VERBOSITY verbose
-\set HISTCONTROL ignoredups
+\set HISTCONTROL ignorespace
 \set COMP_KEYWORD_CASE upper
 
 \unset QUIET
