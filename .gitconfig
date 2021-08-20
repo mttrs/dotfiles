@@ -38,3 +38,5 @@
 	excludesfile = ~/.gitignore_global
 [ghq]
 	root = ~/go/src
+[init]
+	defaultBranch = main
