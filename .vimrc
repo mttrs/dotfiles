@@ -31,7 +31,6 @@ Plug 'rust-lang/rust.vim'
 
 " javascript
 Plug 'pangloss/vim-javascript'
-Plug 'kchmck/vim-coffee-script'
 
 " For .editorconfig loading
 Plug 'editorconfig/editorconfig-vim'
