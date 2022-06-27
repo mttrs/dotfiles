@@ -242,6 +242,9 @@ alias sed='gsed'
 alias vi='vim'
 alias ..='cd ..'
 alias ...='cd ../..'
+# Use python3
+alias python='/usr/local/Cellar/python@3.10/3.10.5/bin/python3.10'
+
 
 # Global alias
 alias -g G='| grep'
