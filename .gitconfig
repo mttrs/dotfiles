@@ -2,31 +2,29 @@
 	name = Mitsuteru Sawa
 	email = mttrs@users.noreply.github.com
 [color]
-	status = auto
-	diff = auto
 	branch = auto
+	diff = auto
 	grep = auto
+	status = auto
 	ui = true
 [alias]
-	br = branch
 	ba = branch -a
+	bl = blame
+	br = branch
 	ci = commit -v
+	cl = clone
 	co = checkout
+	dc = diff --cached
 	di = diff --color=always
 	diw = diff --word-diff
-	dc = diff --cached
 	l = log --oneline --decorate=short
-	ls = log --stat --decorate=full --date=iso --abbrev-commit --show-linear-break
 	lg = log --graph --decorate=short --abbrev-commit
+	ls = log --stat --decorate=full --date=iso --abbrev-commit --show-linear-break
+	mg = merge --no-ff
+	re = remote -v
 	sb = show-branch
 	st = status --short --branch
-	ft = fetch
-	mg = merge --no-ff
-	sh = stash
-	cl = clone
-	bl = blame
-	re = remote -v
-	create-pr = !sh -c 'stash pull-request $0'
+	sw = switch
 [http]
         sslVerify = true
 [push]
